@@ -128,7 +128,7 @@ Month 12 Name: December
 
 Sales Amount: 15500
 
-Month with maximum sales: December with amount 15500 
+Output: Month with maximum sales: December with amount 15500 
 
 Month with minimum sales: April with amount 8000
 
@@ -184,6 +184,6 @@ Month 12: Month Name: December
 
 Sales Amount: 5100
 
-Month with maximum sales: June with amount 5700 
+Output: Month with maximum sales: June with amount 5700 
 
 Month with minimum sales: January with amount 4500
