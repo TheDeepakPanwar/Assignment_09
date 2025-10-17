@@ -5,11 +5,72 @@
 2. Write a C++ program to define a structure ‘Color‘ with members ‘red‘, ‘green‘, and ‘blue‘ (all integers), declare and initialize an array of 5 ‘Color‘ structures with sample RGB values, and then use a ‘for‘ loop to invert the color values of the first 3 elements in the array (by setting each component to 255−original value), finally displaying the new RGB values for all 5 elements.
 
 3. Write a C++ program to define a structure ‘Point‘ with members ‘x‘ and ‘y‘ (both floats), declare an array of 7 ‘Point‘ structures, use a ‘for‘ loop to read the x and y coordinates for all 7 points from user input, and then iterate through the array again to count and display how many of the entered points lie in the first quadrant (where both x>0 and y>0).
-Test Case 1: Input: Enter coordinates for 7 points (x, y): Point 1 - x: 1.2 Point 1 - y: 3.4 Point 2 - x: -1.2 Point 2 - y: 3.4 Point 3 - x: 2.5 Point 3 - y: -4.6 Point 4 - x: 3.1 Point 4 - y: 2.3 Point 5 - x: -0.5 Point 5 - y: -1.2 Point 6 - x: 4.0 Point 6 - y: 5.1 Point 7 - x: -2.0 Point 7 - y: 2.0
+   
+Test Case 1: 
+
+Enter coordinates for 7 points (x, y):
+
+Point 1 - x: 1.2 
+
+Point 1 - y: 3.4
+
+Point 2 - x: -1.2 
+
+Point 2 - y: 3.4 
+
+Point 3 - x: 2.5 
+
+Point 3 - y: -4.6 
+
+Point 4 - x: 3.1 
+
+Point 4 - y: 2.3 
+
+Point 5 - x: -0.5 
+
+Point 5 - y: -1.2 
+
+Point 6 - x: 4.0 
+
+Point 6 - y: 5.1 
+
+Point 7 - x: -2.0 
+
+Point 7 - y: 2.0
 
 Output: Number of points in the first quadrant: 3
 
-Test Case 2: Input: Enter coordinates for 7 points (x, y): Point 1 - x: -3.0 Point 1 - y: 4.5 Point 2 - x: 2.0 Point 2 - y: -1.0 Point 3 - x: 5.0 Point 3 - y: 6.0 Point 4 - x: -1.5 Point 4 - y: -2.0 Point 5 - x: 0.0 Point 5 - y: 0.0 Point 6 - x: 7.0 Point 6 - y: 3.0 Point 7 - x: 4.5 Point 7 - y: -3.5
+Test Case 2: 
+
+Enter coordinates for 7 points (x, y): 
+
+Point 1 - x: -3.0 
+
+Point 1 - y: 4.5 
+
+Point 2 - x: 2.0
+
+Point 2 - y: -1.0
+
+Point 3 - x: 5.0
+
+Point 3 - y: 6.0 
+
+Point 4 - x: -1.5 
+
+Point 4 - y: -2.0 
+
+Point 5 - x: 0.0 
+
+Point 5 - y: 0.0 
+
+Point 6 - x: 7.0
+
+Point 6 - y: 3.0
+
+Point 7 - x: 4.5
+
+Point 7 - y: -3.5
 
 Output: Number of points in the first quadrant: 2
 
