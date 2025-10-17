@@ -74,11 +74,116 @@ Point 7 - y: -3.5
 
 Output: Number of points in the first quadrant: 2
 
-Write a C++ program to define a structure ‘SalesRecord‘ with members ‘month‘ (string) and ‘amount‘ (float), declare an array of 12 ‘SalesRecord‘ structures (representing a year), use a ‘for‘ loop to accept user input for the ‘month‘ name and the ‘amount‘ for all 12 months, and then, using a single pass with a ‘for‘ loop, find and display the ‘month‘ with the maximum sales ‘amount‘ and the ‘month‘ with the minimum sales ‘amount‘.
-Test Case 1: Input: Enter sales data for each month: Month 1: Month Name: January Sales Amount: 12000 Month 2: Month Name: February Sales Amount: 9500 Month 3: Month Name: March Sales Amount: 16000 Month 4: Month Name: April Sales Amount: 8000 Month 5: Month Name: May Sales Amount: 14000 Month 6: Month Name: June Sales Amount: 11000 Month 7: Month Name: July Sales Amount: 10000 Month 8: Month Name: August Sales Amount: 11500 Month 9: Month Name: September Sales Amount: 13000 Month 10: Month Name: October Sales Amount: 12500 Month 11: Month Name: November Sales Amount: 13500 Month 12: Month Name: December Sales Amount: 15500
+4. Write a C++ program to define a structure ‘SalesRecord‘ with members ‘month‘ (string) and ‘amount‘ (float), declare an array of 12 ‘SalesRecord‘ structures (representing a year), use a ‘for‘ loop to accept user input for the ‘month‘ name and the ‘amount‘ for all 12 months, and then, using a single pass with a ‘for‘ loop, find and display the ‘month‘ with the maximum sales ‘amount‘ and the ‘month‘ with the minimum sales ‘amount‘.
 
-Output: Month with maximum sales: December with amount 15500 Month with minimum sales: April with amount 8000
+Test Case 1: 
 
-Test Case 2: Input: Enter sales data for each month: Month 1: Month Name: January Sales Amount: 4500 Month 2: Month Name: February Sales Amount: 5200 Month 3: Month Name: March Sales Amount: 5100 Month 4: Month Name: April Sales Amount: 4900 Month 5: Month Name: May Sales Amount: 5300 Month 6: Month Name: June Sales Amount: 5700 Month 7: Month Name: July Sales Amount: 5500 Month 8: Month Name: August Sales Amount: 4800 Month 9: Month Name: September Sales Amount: 5100 Month 10: Month Name: October Sales Amount: 5300 Month 11: Month Name: November Sales Amount: 4900 Month 12: Month Name: December Sales Amount: 5100
+Enter sales data for each month: 
 
-Output: Month with maximum sales: June with amount 5700 Month with minimum sales: January with amount 4500
+Month 1 Name: January 
+
+Sales Amount: 12000 
+
+Month 2 Name: February 
+
+Sales Amount: 9500 
+
+Month 3 Name: March 
+
+Sales Amount: 16000 
+
+Month 4 Name: April 
+
+Sales Amount: 8000
+
+Month 5 Name: May 
+
+Sales Amount: 14000 
+
+Month 6 Name: June 
+
+Sales Amount: 11000 
+
+Month 7 Name: July 
+
+Sales Amount: 10000 
+
+Month 8 Name: August 
+
+Sales Amount: 11500 
+
+Month 9 Name: September 
+
+Sales Amount: 13000 
+
+Month 10 Name: October 
+
+Sales Amount: 12500 
+
+Month 11 Name: November 
+
+Sales Amount: 13500 
+
+Month 12 Name: December 
+
+Sales Amount: 15500
+
+Month with maximum sales: December with amount 15500 
+
+Month with minimum sales: April with amount 8000
+
+Test Case 2: 
+
+Enter sales data for each month: 
+
+Month 1: Month Name: January 
+
+Sales Amount: 4500 
+
+Month 2: Month Name: February
+
+Sales Amount: 5200
+
+Month 3: Month Name: March
+
+Sales Amount: 5100 
+
+Month 4: Month Name: April
+
+Sales Amount: 4900 
+
+Month 5: Month Name: May
+
+Sales Amount: 5300
+
+Month 6: Month Name: June
+
+Sales Amount: 5700 
+
+Month 7: Month Name: July
+
+Sales Amount: 5500 
+
+Month 8: Month Name: August
+
+Sales Amount: 4800 
+
+Month 9: Month Name: September
+
+Sales Amount: 5100
+
+Month 10: Month Name: October
+
+Sales Amount: 5300
+
+Month 11: Month Name: November
+
+Sales Amount: 4900 
+
+Month 12: Month Name: December
+
+Sales Amount: 5100
+
+Month with maximum sales: June with amount 5700 
+
+Month with minimum sales: January with amount 4500
